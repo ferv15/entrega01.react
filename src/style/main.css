@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+h1, p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+button {
+    border: none;
+    font-family: inherit;
+}
+.container{
+    min-height: 100vh;
+    background-position:center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.titlle {
+    text-shadow: 0.1em 0.1em rgb(206, 206, 177);
+    font-size: 1.5rem;
+}
+p {
+    width: 70%;
+    max-width: 25em;
+    margin-top: 3em;
+    background-color: white;
+    padding: 1em 3em ;
+    line-height: 1.4;
+    border-radius: 0.7em;
+}
+.btn {
+    padding: 0.5em 1.3em;
+    border-radius: 0.8em;
+    font-size: 1.2rem;
+    background-color: #00727A;
+    cursor: pointer;
+}
